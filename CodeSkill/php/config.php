@@ -24,8 +24,8 @@
 	// THIẾT LẬP FACEBOOK APP
 	// Phục vụ cho plugin comment, like, share và login
 	// Dữ liệu sẽ được đọc chung từ file config bên dưới cùng với database
-    define('_FB_APP_ID','1124911304250706');
-    define('_FB_APP_SECRET','a860e89ed85b59fac3f80531ca64be4e');
+    define('_FB_APP_ID','');
+    define('_FB_APP_SECRET','');
     // Autoload facebook SDK
     require_once $_SERVER['DOCUMENT_ROOT']."/php/Facebook/autoload.php";
     $GLOBALS["FB"] = new Facebook\Facebook([
